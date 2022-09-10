@@ -1,0 +1,2 @@
+#!/bin/bash
+head -n $((((grep bin /etc/passwd | wc -l)) + ((3)))) /etc/passwd
